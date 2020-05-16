@@ -1,0 +1,527 @@
+body{
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+}
+/* utilities */
+@font-face {
+  font-family: "myFirstFont";
+  src: url("freelandfonts.ttf");
+}
+
+@font-face {
+  font-family: "Allura";
+  src: url("Allura-Regular.otf");
+}
+
+.image_responsive{
+  width:100%;
+  max-width: 100%;
+  height:auto;
+}
+
+
+/* navbar */
+.navbar{
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0;
+  padding: 0;
+  font-family: myFirstFont;
+  font-weight: bold;
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #77c3cc;
+  flex: 1;
+}
+
+.navbar ul li{
+  display: inline-block;
+}
+
+.navbar li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 25px 20px;
+  font-size: 17px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+
+/* hero section */
+
+.hero_section{
+  display: flex;
+  justify-content: center;   /*horizontally center*/
+  align-items: center;  /*vertically center*/
+  width: 100%;
+  height: 900px;
+  background-image:linear-gradient(darkgrey,darkgrey) ,url("../img/contactcover2.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.hero_text{
+  color: white;
+  text-align: center;
+  /* text-transform: uppercase; */
+}
+
+.hero_text h1{
+  font-size: 150px;
+  font-weight: bold;
+  font-family: myFirstFont;
+}
+
+.hero_text p{
+  letter-spacing: 5px;
+  font-family: myFirstFont;
+  font-weight: bold;
+}
+
+/* profile */
+
+.profile{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+
+}
+
+
+.image {
+  opacity: 1;
+  margin: auto;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.profile .col:hover .image {
+  opacity: 0.3;
+}
+
+.profile .col:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #FD9638;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* info about creators */
+#myDIV {
+  margin: auto;
+
+  width: 90%;
+  padding: 50px 25px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  display: none;
+  text-align: left;
+  font-weight: bold;
+  line-height: 30px;
+  background-color:rgba(180, 236, 180,0.5);
+  transition: all 0.5s;
+
+}
+#myDIV2 {
+  margin: auto;
+  width: 90%;
+  padding: 50px 25px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  display: none;
+  text-align: left;
+  font-weight: bold;
+  line-height: 30px;
+  background-color:rgba(180, 236, 180,0.5);
+  transition: all 0.5s;
+
+}
+
+ h3{
+  font-family: myFirstFont;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 40px;
+
+}
+
+/* contact form */
+#hire {
+  background: #efefef;
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #B6B6B6;
+}
+body section {
+  background: white;
+  margin: 60px auto 120px;
+  border-top: 15px solid #313A3D;
+  text-align: center;
+  padding: 50px 0 110px;
+  width: 80%;
+  max-width: 1100px;
+}
+body section h1 {
+  margin-bottom: 40px;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: #313A3D;
+}
+
+form {
+  width: 58.3333333333%;
+  margin: 0 auto;
+}
+form .field {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+form .field label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #313A3D;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field label + span {
+  font-family: 'SSStandard';
+  opacity: 0;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 7%;
+  font-size: 2.5em;
+  text-shadow: 1px 2px 0 #cd6302;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field input[type="text"],
+form .field textarea {
+  border: none;
+  background: #E8E9EA;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313A3D;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+form .field input[type="text"]#msg,
+form .field textarea#msg {
+  height: 18px;
+  resize: none;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form .field input[type="text"]:focus, form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
+  outline: none;
+}
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+  padding-bottom: 150px;
+}
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #FD9638;
+  color: #313A3D;
+}
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+  color: #FD9638;
+}
+form .field:hover label {
+  width: 18%;
+  background: #313A3D;
+  color: white;
+}
+form input[type="submit"] {
+  background: #FD9638;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form input[type="submit"]:hover {
+  background: #313A3D;
+  color: #FD9638;
+}
+form input[type="submit"]:focus {
+  outline: none;
+  background: #cd6302;
+}
+
+ /*
+ footer */
+
+
+
+ .footer-distributed{
+ 	background: #77c3cc;
+ 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+ 	box-sizing: border-box;
+ 	width: 100%;
+ 	text-align: left;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font: bold 16px sans-serif;
+ 	padding: 55px 50px;
+ }
+
+ .footer-distributed .footer-left,
+ .footer-distributed .footer-center,
+ .footer-distributed .footer-right{
+ 	display: inline-block;
+ 	vertical-align: top;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+ /* Footer left */
+
+ .footer-distributed .footer-left{
+ 	width: 40%;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+ /* The company logo */
+
+ .footer-distributed h3{
+ 	color:  #ffffff;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font: normal 36px 'Open Sans', cursive;
+ 	margin: 0;
+ }
+
+ .footer-distributed h3 span{
+ 	color:  white;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+ /* Footer links */
+
+ .footer-distributed .footer-links{
+ 	color:  #ffffff;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	margin: 20px 0 12px;
+ 	padding: 0;
+ }
+
+ .footer-distributed .footer-links a{
+ 	display:inline-block;
+ 	line-height: 1.8;
+   font-weight:400;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	text-decoration: none;
+ 	color:  inherit;
+ }
+
+ .footer-distributed .footer-company-name{
+ 	color:  #222;
+ 	font-size: 14px;
+ 	font-weight: normal;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	margin: 0;
+ }
+
+ /* Footer Center */
+
+ .footer-distributed .footer-center{
+ 	width: 35%;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+ .footer-distributed .footer-center i{
+ 	background-color:  #33383b;
+ 	color: #ffffff;
+ 	font-size: 25px;
+ 	width: 38px;
+ 	height: 38px;
+ 	border-radius: 50%;
+ 	text-align: center;
+ 	line-height: 42px;
+ 	margin: 10px 15px;
+ 	vertical-align: middle;
+
+ }
+
+ .footer-distributed .footer-center i.fa-envelope{
+ 	font-size: 17px;
+ 	line-height: 38px;
+ }
+
+ .footer-distributed .footer-center p{
+ 	display: inline-block;
+ 	color: #ffffff;
+   font-weight:400;
+ 	vertical-align: middle;
+ 	margin:0;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+ .footer-distributed .footer-center p span{
+ 	display:block;
+ 	font-weight: normal;
+ 	font-size:14px;
+ 	line-height:2;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+ .footer-distributed .footer-center p a{
+ 	color:  white;
+ 	text-decoration: none;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+ .footer-distributed .footer-links a:before {
+   content: "|";
+   font-weight:300;
+   font-size: 20px;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   left: 0;
+   color: #fff;
+   display: inline-block;
+   padding-right: 5px;
+ }
+
+ .footer-distributed .footer-links .link-1:before {
+   content: none;
+ }
+
+ /* Footer Right */
+
+ .footer-distributed .footer-right{
+ 	width: 20%;
+ }
+
+ .footer-distributed .footer-company-about{
+ 	line-height: 20px;
+ 	color:  white;
+ 	font-size: 13px;
+ 	font-weight: normal;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	margin: 0;
+ }
+
+ .footer-distributed .footer-company-about span{
+ 	display: block;
+ 	color:  #ffffff;
+ 	font-size: 14px;
+ 	font-weight: bold;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	margin-bottom: 20px;
+ }
+
+ .footer-distributed .footer-icons{
+ 	margin-top: 25px;
+ }
+
+ .footer-distributed .footer-icons a{
+ 	display: inline-block;
+ 	width: 35px;
+ 	height: 35px;
+ 	cursor: pointer;
+ 	background-color:  #33383b;
+ 	border-radius: 2px;
+
+ 	font-size: 20px;
+ 	color: #ffffff;
+ 	text-align: center;
+ 	line-height: 35px;
+
+ 	margin-right: 3px;
+ 	margin-bottom: 5px;
+ }
+
+ /* If you don't want the footer to be responsive, remove these media queries */
+
+ @media (max-width: 880px) {
+
+ 	.footer-distributed{
+ 		font: bold 14px sans-serif;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	}
+
+ 	.footer-distributed .footer-left,
+ 	.footer-distributed .footer-center,
+ 	.footer-distributed .footer-right{
+ 		display: block;
+ 		width: 100%;
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 		margin-bottom: 40px;
+ 		text-align: center;
+ 	}
+
+ 	.footer-distributed .footer-center i{
+ 		margin-left: 0;
+ 	}
+
+ }

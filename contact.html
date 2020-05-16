@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar_nav").style.top = "0";
+      } else {
+        document.getElementById("navbar_nav").style.top = "-80px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      var y = document.getElementById("myDIV2");
+      if(y.style.display == "block"){
+        y.style.display = "none";
+      }
+
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function myFunction2() {
+      var x = document.getElementById("myDIV2");
+      var y = document.getElementById("myDIV");
+      if(y.style.display == "block"){
+        y.style.display = "none";
+      }
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+    <title>Contact | Aspiring Souls</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+
+      <nav class="navbar" id="navbar_nav">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="process.html">PROCESS</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="contact.html">CONTACT US</a></li>
+      </ul>
+
+    </nav>
+
+
+
+
+
+
+    <!-- hero section -->
+    <div class="hero_section">
+      <div class="hero_text">
+        <h1>Contact Us</h1>
+
+        <!-- <a href="#" class="btn_dark margin_top">Read Recipes</a> -->
+
+      </div>
+
+    </div>
+
+
+    <!-- profile section -->
+    <div class="profile">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="img/two.jpg" alt="" onclick="myFunction()" class="image">
+            <div class="middle">
+              <div class="text" onclick="myFunction()">Anushka</div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            <img src="img/one.jpg" alt="" onclick="myFunction2()" class="image">
+            <div class="middle">
+              <div class="text" onclick="myFunction2()">Mami</div>
+            </div>
+
+          </div>
+
+        </div><br><br>
+
+        <div id="myDIV">
+
+
+          <div class="row">
+            <div class="col">
+              <h3>Anushka Parikh</h3>
+              Hi My name is Anushka Parikh. I am 21 years old.In an essay, article, or book, an introduction is a beginning section
+              which states the purpose and goals of the following writing. This is generally followed by the body and conclusion.
+            </div>
+            <div class="col">
+              <img src="img/two.jpg" alt="">
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <div id="myDIV2">
+
+          <div class="row">
+            <div class="col">
+              <h3> Dipti Parikh</h3>
+              Hi I am Anushka's Mummy.In an essay, article, or book, an introduction is a beginning section which states the
+              purpose and goals of the following writing. This is generally followed by the body and conclusion.
+
+            </div>
+
+            <div class="col">
+              <img src="img/one.jpg" alt="">
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--  info about creators -->
+
+
+
+
+
+
+
+<!-- contact form -->
+<section id="hire">
+  <h1>Contact Us</h1>
+
+  <form>
+      <div class="field name-box">
+          <input type="text" id="name" placeholder="Who Are You?"/>
+          <label for="name">Name</label>
+          <span class="ss-icon">check</span>
+      </div>
+
+      <div class="field email-box">
+          <input type="text" id="email" placeholder="name@email.com"/>
+          <label for="email">Email</label>
+          <span class="ss-icon">check</span>
+      </div>
+
+      <div class="field msg-box">
+          <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+          <label for="msg">Msg</label>
+          <span class="ss-icon">check</span>
+      </div>
+      <br>
+
+      <input class="button" type="submit" value="Send" />
+</form>
+</section>
+
+
+<!-- footer -->
+
+        <footer class="footer-distributed">
+
+        			<div class="footer-left">
+
+        				<h3>ASPIRING<span>SOULS</span></h3>
+
+        				<p class="footer-links">
+        					<a href="index.html" class="link-1">HOME</a>
+
+        					<a href="services.html">SERVICES</a>
+
+        					<a href="gallery.html">GALLERY</a>
+
+        					<a href="process.html">PROCESS</a>
+
+        					<a href="aboutus.html">ABOUT US</a>
+
+        				</p>
+
+        				<p class="footer-company-name">Aspiring Souls © 2020</p>
+        			</div>
+
+        			<div class="footer-center">
+
+        				<div>
+        					<i class="fa fa-map-marker"></i>
+        					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+        				</div>
+
+        				<div>
+        					<i class="fa fa-phone"></i>
+        					<p>+91 9724786410</p>
+        				</div>
+
+        				<div>
+        					<i class="fa fa-envelope"></i>
+        					<p><a href="mailto:support@company.com">support@company.com</a></p>
+        				</div>
+
+        			</div>
+
+        			<div class="footer-right">
+
+        				<p class="footer-company-about">
+        					<span>About the company</span>
+        					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        				</p>
+
+        				<div class="footer-icons">
+
+        					<a href="https://www.facebook.com/akshita.patel.1048"><i class="fa fa-facebook"></i></a>
+        					<a href="https://www.instagram.com/_anushkaparikhh/"><i class="fa fa-instagram"></i></a>
+        					<a href="#"><i class="fa fa-linkedin"></i></a>
+        					<a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+
+        				</div>
+
+        			</div>
+
+        		</footer>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  </body>
+</html>
