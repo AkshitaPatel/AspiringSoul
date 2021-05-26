@@ -312,6 +312,14 @@ html {
 
 }
 
+@media screen and (max-width:800px){
+  .image{
+    width: 200px;
+  }
+}
+
+
+
 
 
 
@@ -366,7 +374,7 @@ html {
 
 .contact-us {
   position: relative;
-  width: 250px;
+  width: 70%;
   background: #C3E0EC;
   overflow: hidden;
 }
@@ -487,8 +495,8 @@ form button {
   position: absolute;
   display: block;
   height: 40px;
-  width: 250px;
-  left: 160px;
+  width: 100%;
+
   border: 0;
   border-radius: 20px;
   bottom: -20px;
@@ -679,6 +687,9 @@ textarea {
 
 
 @media screen and (max-width:500px) {
+  .contact-form-container{
+    width: 500px;
+  }
   #button-blue {
     font-weight: 300;
     font-size: 18px;
@@ -686,6 +697,8 @@ textarea {
     padding-bottom: 10px;
 
   }
+
+
 
 }
 
