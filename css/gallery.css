@@ -570,6 +570,12 @@ h3{
   margin-top: 25px;
 }
 
+.footer-distributed .footer-icons i{
+  margin: 8px 10px;
+
+
+}
+
 .footer-distributed .footer-icons a{
   display: inline-block;
   width: 35px;
