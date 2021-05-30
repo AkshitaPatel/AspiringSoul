@@ -909,6 +909,10 @@ h1,h4,h5,p{
   font-family: 'PT Sans', sans-serif;
  }
 
+  .footer-distributed .footer-center p name{
+    font-size: 17px;
+  }
+
  .footer-distributed .footer-center p a{
  	color:  white;
  	text-decoration: none;

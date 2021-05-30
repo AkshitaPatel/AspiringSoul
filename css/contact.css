@@ -287,7 +287,6 @@ html {
   .heading{
     font-size: 60px;
   }
-
 }
 
 
@@ -317,21 +316,9 @@ html {
     width: 200px;
   }
 }
-
-
-
-
-
-
-
 .profile{
   display: flex;
 }
-
-
-
-
-
 
 .col img{
   margin: auto;
