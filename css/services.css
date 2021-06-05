@@ -372,6 +372,16 @@ h1,h4,h5,p{
   text-align: center;
 }
 
+.image_responsive:hover{
+  border: 5px solid #333333;
+  border-color: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  overflow: hidden;
+}
+
+#process img{
+   margin: -5px;
+}
+
 
 
 /* shooters */
@@ -407,7 +417,7 @@ h1,h4,h5,p{
 
 .footer-space p{
   line-height: 1.5;
-  
+
 }
 
 /* Footer left */
