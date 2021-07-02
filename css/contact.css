@@ -650,7 +650,6 @@ form .icon {
 .footer-distributed .footer-center p span{
   display:block;
   font-weight: normal;
-  font-size:16px;
   line-height:2;
  font-family: 'PT Sans', sans-serif;
 }
@@ -721,6 +720,12 @@ form .icon {
   margin-bottom: 5px;
 }
 
+.pan2{
+  display: none;
+}
+.pan .row{
+  width:100%;
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
@@ -740,8 +745,20 @@ form .icon {
     text-align: center;
   }
 
-  .footer-distributed .footer-center i{
-    margin-left: 0;
+}
+
+@media (max-width:400px){
+  .pan{
+    display: none;
+  }
+  .pan2{
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .pan2 .row{
+    display: inline-block;
+    width:100%;
   }
 
 }

@@ -420,7 +420,7 @@ table{
   }
   .services span{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
   }
   .services .button{
     margin: auto;
@@ -565,11 +565,6 @@ table{
 }
 
 
-
-
- /*
- footer */
-
  /* footer */
  .footer-distributed{
   background: #77c3cc;
@@ -681,7 +676,6 @@ table{
 .footer-distributed .footer-center p span{
   display:block;
   font-weight: normal;
-  font-size:16px;
   line-height:2;
  font-family: 'PT Sans', sans-serif;
 }
@@ -752,15 +746,20 @@ table{
   margin-bottom: 5px;
 }
 
+.pan2{
+  display: none;
+}
+.pan .row{
+  width:100%;
+}
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-
   .footer-distributed{
     font: bold 14px sans-serif;
    font-family: 'PT Sans', sans-serif;
   }
-
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right{
@@ -770,9 +769,21 @@ table{
     margin-bottom: 40px;
     text-align: center;
   }
-
   .footer-distributed .footer-center i{
     margin-left: 0;
   }
+}
 
+@media (max-width:400px){
+  .pan{
+    display: none;
+  }
+  .pan2{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .pan2 .row{
+    display: inline-block;
+    width:100%;
+  }
 }

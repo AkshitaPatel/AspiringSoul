@@ -497,7 +497,6 @@ h1,h4,h5,p{
 .footer-distributed .footer-center p span{
   display:block;
   font-weight: normal;
-  font-size:16px;
   line-height:2;
  font-family: 'PT Sans', sans-serif;
 }
@@ -568,6 +567,13 @@ h1,h4,h5,p{
   margin-bottom: 5px;
 }
 
+.pan2{
+  display: none;
+}
+.pan .row{
+  width:100%;
+}
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
@@ -593,6 +599,20 @@ h1,h4,h5,p{
 
 }
 
+
+@media (max-width:400px){
+  .pan{
+    display: none;
+  }
+  .pan2{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .pan2 .row{
+    display: inline-block;
+    width:100%;
+  }
+}
 
 
 /* extra section */
