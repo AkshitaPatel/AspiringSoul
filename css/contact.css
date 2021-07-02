@@ -192,57 +192,40 @@ html {
     height:300px;
     width:300px;
   }
-
-
-
-
   .hero_text h1{
     font-size: 80px;
   }
-
   .hero_text p{
     font-size: 30px;
   }
-
-
 }
 
 
 @media (max-width: 600px){
-
-
     .hero_section{
       height: 600px;
     }
-
     .hero_text img{
       height:250px;
       width:250px;
     }
-
-
   .hero_text h1{
     font-size: 60px;
   }
-
   .hero_text p{
     font-size: 25px;
   }
-
-
 }
 
 @media (max-width: 500px){
   .hero_text h1{
     font-size: 90px;
   }
-
 }
 
 
 
 @media (max-width:370px) {
-
   .hero_text h1{
     font-size: 80px;
   }
@@ -309,13 +292,10 @@ html {
   }
 
   #process img{
-
     padding: 0px;
     min-height:250px;
     min-width:250px;
   }
-
-
 }
 
 @media (max-width: 400px) {
@@ -324,7 +304,6 @@ html {
     font-size: 15px;
     font-weight: bold;
   }
-
 }
 
 #process p{
@@ -367,6 +346,7 @@ z-index: 1;
 width: 100%;
 transform: rotate(-90deg);
 transform-origin: top left;
+margin-left: 30px;
 }
 
 
@@ -375,11 +355,10 @@ transform-origin: top left;
   font-size: 1.2rem;
   font-family: "Pacifico", cursive;
   display: inline-block;
-
 }
 
 .social-container i{
-  background-color:  #33383b;
+  background-color: #33383b;
   color: #ffffff;
   font-size: 20px;
   width: 38px;
@@ -403,6 +382,11 @@ transform-origin: top left;
 svg {
   height: 23rem;
   margin-right: 4rem;
+}
+
+#svg{
+  margin: auto;
+  text-align: center;
 }
 
 #envelope {
