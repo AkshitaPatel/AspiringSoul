@@ -353,8 +353,8 @@ margin-left: 30px;
 .social-container{
   margin: auto;
   font-size: 1.2rem;
-  font-family: "Pacifico", cursive;
   display: inline-block;
+  margin: 10px 0;
 }
 
 .social-container i{
