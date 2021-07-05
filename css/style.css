@@ -365,6 +365,11 @@ h1,h4,h5,p{
 
 }
 
+.icons a{
+  color: black;
+}
+
+
 @media screen and (max-width:770px) {
   .icons .row .col .row img{
     padding: 0px;

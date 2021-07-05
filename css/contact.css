@@ -279,7 +279,7 @@ html {
 }
 
 #process h3{
-  width:100%;
+  width:85%;
   font-size: 25px;
   font-weight: bold;
 }
@@ -338,15 +338,11 @@ html {
 }
 
 .team_inner{
-position: absolute;
-left: 0;
-bottom: -20px;
+margin-top: 10px;
+text-align: right;
 transition: all 0.3s ease;
-z-index: 1;
 width: 100%;
-transform: rotate(-90deg);
-transform-origin: top left;
-margin-left: 30px;
+
 }
 
 
