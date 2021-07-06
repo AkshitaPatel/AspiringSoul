@@ -280,6 +280,7 @@ html {
 
 #process h3{
   width:85%;
+  font-family: myFirstFont;
   font-size: 25px;
   font-weight: bold;
 }

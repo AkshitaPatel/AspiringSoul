@@ -353,7 +353,7 @@ h1,h4,h5,p{
 .icons .row .col .row img{
   width:80%;
   height:80%;
-  padding:30px;
+
 }
 
 .icons .row .col .row p{
@@ -666,7 +666,11 @@ h1,h4,h5,p{
 
 
 /* slideshow ends */
-
+.see-more{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
 
 /* gallery */
 .gallery-grid img{
