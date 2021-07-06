@@ -384,7 +384,6 @@ h1,h4,h5,p{
 
 
 
- /* footer */
 
  /* footer */
  .footer-distributed{
@@ -577,12 +576,10 @@ h1,h4,h5,p{
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-
   .footer-distributed{
     font: bold 14px sans-serif;
    font-family: 'PT Sans', sans-serif;
   }
-
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right{
@@ -592,13 +589,10 @@ h1,h4,h5,p{
     margin-bottom: 40px;
     text-align: center;
   }
-
   .footer-distributed .footer-center i{
     margin-left: 0;
   }
-
 }
-
 
 @media (max-width:400px){
   .pan{
@@ -612,21 +606,4 @@ h1,h4,h5,p{
     display: inline-block;
     width:100%;
   }
-}
-
-
-/* extra section */
-
-.extra_section{
-  padding: 70px 0px;
-}
-
-.extra_section h4{
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.extra_section p{
-  line-height: 36px;
-  font-weight: 300;
 }
