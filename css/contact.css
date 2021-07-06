@@ -288,7 +288,7 @@ html {
 @media (max-width: 600px) {
   #process h3{
     width:80%;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
   }
 
@@ -302,7 +302,7 @@ html {
 @media (max-width: 400px) {
   #process h3{
     width:80%;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
   }
 }
